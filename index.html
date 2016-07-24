@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>待办事项</title>
+	<link rel="stylesheet" href="css/dbsx.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="todolist-box">
+		<header>
+			<form action="" class="myform">
+				<input type="text" placeholder="请输入待办事项" class="list-text" autocomplete="on"  required>
+				<input type="button" class="sub-btn icon" value="&#xe6ea;">
+				<input type="button" class="del-btn icon" value="&#xe621;">
+			</form>
+		</header>
+		<hr>
+		<section>
+		
+			<div class="now">
+				<div class="list-title">
+					<h3>未完成</h3>
+					<span class="list-num">0</span>
+				</div>
+				<ul class="list-item">
+					<li>
+						<span class="line"></span>
+						<input type="checkbox" class="item-btn">
+						<input type="text" class="list-content" contenteditable=true value="ddddddddddddddddd">
+						<span class="icon icon-login">&#xe61c;</span>
+						<span class="list-data"></span>
+						
+					</li>
+				</ul>
+			</div>
+			<div class="before">
+				<div class="list-title">
+					<h3>已完成</h3>
+					<span class="list-num">0</span>
+				</div>
+				<ul class="list-item">
+					<li>
+						<span class="line"></span>
+						<input type="checkbox" class="item-btn">
+						<i>1</i>
+						<input type="text" class="list-content" contenteditable=true value="ddddddddddddddddd">
+						<button class="icon icon-login">&#xe61c;</button>
+						<span class="list-data">2016-4-5</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+<script src="./js/index.js"></script>
+</body>
+</html>
